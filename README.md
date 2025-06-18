@@ -1,7 +1,7 @@
 # mbentley/cf-uaac
 
 docker image for [cf-uaac]()
-based off of ruby:3.4-alpine
+based off of alpine:latest
 
 To pull this image:
 `docker pull mbentley/cf-uaac`
