@@ -1,7 +1,7 @@
-FROM ruby:3.4-alpine
+FROM mbentley/alpine:latest
 
 # install dependencies
-RUN apk add --no-cache curl g++ jq make
+RUN apk add --no-cache curl g++ jq make ruby ruby-dev
 
 # cache busting by passing version
 ARG CF_UAAC_VER
